@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/John-Walker-Moosbrugger/cubeRoverWebsite/issues"
   },
-  "homepage": "https://github.com/John-Walker-Moosbrugger/cubeRoverWebsite#readme"
+  "homepage": "https://github.com/John-Walker-Moosbrugger/cubeRoverWebsite#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
 }
