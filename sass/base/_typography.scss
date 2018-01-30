@@ -1,0 +1,19 @@
+body {
+    font-family: 'Raleway';
+    font-weight: 300;
+}
+
+
+.header__text {
+    font-size: 10rem;
+    color: $color-grey-light-1;
+    font-weight: 300;
+
+    > span {
+        padding: 1rem;
+    }
+
+    &--cube {
+        border-right: .4rem solid $color-grey-light-1;
+    }
+}

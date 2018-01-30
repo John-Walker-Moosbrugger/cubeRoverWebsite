@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* forces inheritance of box sizing */
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  /* sets box sizing to be inherited by everything in the body */
+  box-sizing: border-box; }
+
+.content {
+  margin: 4rem; }
+
+body {
+  font-family: 'Raleway';
+  font-weight: 300; }
+
+.header__text {
+  font-size: 10rem;
+  color: #e5e5e5;
+  font-weight: 300; }
+  .header__text > span {
+    padding: 1rem; }
+  .header__text--cube {
+    border-right: 0.4rem solid #e5e5e5; }
+
+.header {
+  background-image: linear-gradient(#432c4a, #432c4a);
+  height: 95vh;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  .header__title {
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    transform: translateX(-50%); }
