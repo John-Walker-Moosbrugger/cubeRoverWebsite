@@ -1,18 +1,16 @@
 .solutions {
     position: relative;
     width: 100%;
-    padding-top: 20rem;
     background-color: $color-secondary;
 
     &__title {
-        position: absolute;
-        left: 50%;
-        top: 10rem;
 
         &--text {
+            text-align: center;
+            margin-top: 20rem;
+            margin-bottom: 6rem;
             font-weight: 400;
             font-size: 4rem;
-            transform: translateX(-50%);
         }
     }
 

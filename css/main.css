@@ -145,16 +145,13 @@ body {
 .solutions {
   position: relative;
   width: 100%;
-  padding-top: 20rem;
   background-color: #F2F6F8; }
-  .solutions__title {
-    position: absolute;
-    left: 50%;
-    top: 10rem; }
-    .solutions__title--text {
-      font-weight: 400;
-      font-size: 4rem;
-      transform: translateX(-50%); }
+  .solutions__title--text {
+    text-align: center;
+    margin-top: 20rem;
+    margin-bottom: 6rem;
+    font-weight: 400;
+    font-size: 4rem; }
   .solutions__card {
     background-color: #432c4a;
     position: relative;
