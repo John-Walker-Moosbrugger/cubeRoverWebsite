@@ -81,3 +81,29 @@ body {
   max-width: 100%;
   max-height: 50vh;
   object-fit: cover; }
+
+.solutions {
+  position: relative;
+  width: 100%;
+  padding-top: 20rem; }
+
+.solutions__title {
+  position: absolute;
+  left: 50%;
+  top: 10rem; }
+  .solutions__title--text {
+    font-weight: 400;
+    font-size: 4rem;
+    transform: translateX(-50%); }
+
+.solutions__card {
+  position: relative;
+  width: 60%;
+  height: 40rem;
+  margin: 0 auto; }
+
+.solutions__img {
+  position: relative;
+  width: 100%;
+  height: 15rem;
+  object-fit: cover; }

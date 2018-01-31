@@ -1,5 +1,7 @@
 .header {
-    background-image: linear-gradient($color-primary, $color-primary);
+    background-image: linear-gradient(
+        $color-primary, 
+        $color-primary);
     height: 95vh;
     position: relative;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 95%);
