@@ -1,9 +1,14 @@
+.footer {
+    padding-top: 4rem;
+    background-color: $color-primary;
+    color: $color-grey-light-1;
+    text-align: center;
+}
+
 .contact {
     font-weight: 300;
     font-size: 1.8rem;
-    text-align: center;
-
-    background-color: $color-primary;
+    padding-bottom: 3rem;
 
     &__email {
         font-weight: inherit;
@@ -14,7 +19,13 @@
     }
 
     &__line {
-        border: 1px solid $color-grey-dark-1;
+        border: 1px solid $color-grey-light-1;
         margin: 1rem;
     }
+}
+
+.copywright {
+    font-weight: 300;
+    font-size: 1.4rem;
+    padding-bottom: 4rem;
 }
