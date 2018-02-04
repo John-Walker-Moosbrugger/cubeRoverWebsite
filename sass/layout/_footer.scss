@@ -1,0 +1,20 @@
+.contact {
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-align: center;
+
+    background-color: $color-primary;
+
+    &__email {
+        font-weight: inherit;
+    }
+
+    &__phone {
+        font-weight: inherit;
+    }
+
+    &__line {
+        border: 1px solid $color-grey-dark-1;
+        margin: 1rem;
+    }
+}
