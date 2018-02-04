@@ -29,11 +29,14 @@ html {
 body {
     /* sets box sizing to be inherited by everything in the body */
     box-sizing: border-box;
-}
 
+    margin: 4rem;
+
+    @include respond(tab-port) {
+        margin: 0;
+    }
+}
 
 .content {
-    margin: 4rem;
+    background-color: $color-secondary;
 }
-
-

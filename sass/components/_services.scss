@@ -1,14 +1,13 @@
 .solutions {
     position: relative;
     width: 100%;
-    background-color: $color-secondary;
     padding-bottom: 10rem;
+    padding-top: 0;
 
     &__title {
 
         &--text {
             text-align: center;
-            margin-top: 20rem;
             margin-bottom: 6rem;
             font-weight: 400;
             font-size: 4rem;

@@ -14,9 +14,20 @@
 
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
+
+            @include respond(phone) {
+                margin-right: 0;
+            }
+        }
+
+        @include respond(phone) {
+            width: 100% !important;
         }
     }
 }
+
+
+
 
 .row__small {
     max-width: 90rem;
@@ -34,6 +45,14 @@
 
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
+
+            @include respond(phone) {
+                margin-right: 0;
+            }
+        }
+
+        @include respond(phone) {
+            width: 100% !important;
         }
     }
 }

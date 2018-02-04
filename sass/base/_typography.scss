@@ -9,6 +9,10 @@ body {
     color: $color-grey-light-1;
     font-weight: 300;
 
+    @include respond(phone) {
+        font-size: 6rem;
+    }
+
     > span {
         padding: 1rem;
     }
