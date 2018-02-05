@@ -185,6 +185,9 @@ body {
   padding-bottom: 3rem; }
   .contact__email {
     font-weight: inherit; }
+    @media (max-width: 37.5em) {
+      .contact__email {
+        margin-bottom: 2rem; } }
   .contact__phone {
     font-weight: inherit; }
   .contact__line {

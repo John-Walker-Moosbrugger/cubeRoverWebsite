@@ -12,6 +12,9 @@
 
     &__email {
         font-weight: inherit;
+        @include respond(phone) {
+            margin-bottom: 2rem;
+        }
     }
 
     &__phone {
