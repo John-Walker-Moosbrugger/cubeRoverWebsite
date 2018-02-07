@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/John-Walker-Moosbrugger/cubeRoverWebsite#readme",
   "devDependencies": {
+    "cssnano": "^3.10.0",
     "node-sass": "^4.7.2"
   }
 }
